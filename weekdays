@@ -1,0 +1,13 @@
+using System;
+namespace IamNeo {
+    class Program
+    {
+        enum weekdays
+        {
+            Sun,Mon,Tue,Wed,Thu,Fri,Sat
+        };
+        static void Main(string[] args) {
+    Console.WriteLine((int)weekdays.Sat);
+  }
+}
+}
