@@ -1,0 +1,13 @@
+using System;
+    class Program
+    {
+        static void Main(string[] args) {
+        int age=15;
+        if(age> 20)
+    Console.WriteLine("Eligible");
+    if(age>15 && age<20)
+    Console.WriteLine("Recommendation Need");
+    else
+    Console.WriteLine("Not Eligible");
+        }
+}
